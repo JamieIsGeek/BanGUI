@@ -1,0 +1,14 @@
+name: BanGUI
+version: '${project.version}'
+main: dev.jamieisgeek.bangui.BanGUI
+api-version: 1.18
+prefix: JamieIsGeek
+authors: [ JamieIsGeek ]
+description: Opens a GUI to allow easier punishments
+softdepend: [LiteBans]
+
+
+commands:
+  ban:
+    description: Ban a player with ease
+    usage: /<command>
